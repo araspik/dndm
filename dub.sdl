@@ -1,0 +1,15 @@
+name "dndm"
+description "A Dungeons & Dragons Manager."
+authors "ARaspiK"
+copyright "Copyright © 2018, ARaspiK"
+license "MIT"
+
+targetType "none"
+
+dependency "dndm:dnd" version="*"
+dependency "dndm:cli" version="*"
+
+subPackage "./dnd"
+subPackage "./cli"
+subPackage "./tui"
+subPackage "./web"

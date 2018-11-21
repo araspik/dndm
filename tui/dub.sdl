@@ -1,0 +1,6 @@
+name "tui"
+targetType "executable"
+targetName "dndm-tui"
+
+sourcePaths "."
+importPaths "./.."

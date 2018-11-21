@@ -1,0 +1,6 @@
+name "web"
+targetType "executable"
+targetName "dndm-web"
+
+sourcePaths "."
+importPaths "./.."

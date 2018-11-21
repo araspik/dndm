@@ -1,0 +1,6 @@
+name "dnd"
+targetType "library"
+targetName "dndm"
+
+sourcePaths "."
+importPaths "./.."

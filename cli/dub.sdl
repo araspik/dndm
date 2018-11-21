@@ -1,0 +1,9 @@
+name "cli"
+targetType "executable"
+targetName "dndm"
+targetPath "./.."
+
+sourcePaths "."
+importPaths "./.."
+
+dependency "dndm:dnd" version="*"
