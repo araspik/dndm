@@ -89,9 +89,7 @@ struct DiceSet {
 
   /// Rolls the dice, modifies the result, and returns it.
   ptrdiff_t roll() {
-    const res = front;
-    popFront;
-    return res;
+    return dice.take(num).sum + bonus;
   }
 
   /// Range primitives.
@@ -101,8 +99,7 @@ struct DiceSet {
 
   /// ditto
   void popFront() {
-    foreach (_; 0 .. num)
-      dice.popFront;
+    dice.popFrontN(num);
   }
 
   /// ditto
